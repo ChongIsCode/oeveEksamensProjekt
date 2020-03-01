@@ -21,3 +21,10 @@ if response.status_code == 200:
 
 else:
     print("Failure!", response.status_code)
+
+txt = titel.get("canonicalTitle")
+x = txt.split()
+answer = input("Choose a word that will replace the title above UwU\n")
+result = txt.replace(random.choice(x), answer)
+
+print(result)
