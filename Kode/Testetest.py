@@ -24,7 +24,7 @@ else:
 
 txt = titel.get("canonicalTitle")
 x = txt.split()
-answer = input("Choose a word that will replace the title above UwU\n")
+answer = input("Choose a word that will replace a random word in the title above UwU\n")
 result = txt.replace(random.choice(x), answer)
 
 print(result)
